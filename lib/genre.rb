@@ -25,6 +25,6 @@ class Genre
 
   #identifies the collection of artists's associated with an genre's song collection
   def artists
-    @songs.collect{|song| song.genre}.uniq
+    @songs.collect{|song| song.artist}.uniq
   end
 end
